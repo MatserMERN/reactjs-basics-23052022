@@ -4,6 +4,13 @@ import { GreetOne } from "./1.components/1.function/GreetOne";
 import { Named } from "./1.components/1.function/Named";
 import Welcome from "./1.components/2.class/Welcome";
 import { WelcomeOne } from "./1.components/2.class/WelcomeOne";
+import LifeCycleA from "./10.life-cycle-methods/LifeCycleA";
+import PostAPI from "./11.api-calls/PostAPI";
+import ReqResAPI from "./11.api-calls/ReqResAPI";
+import ReqResAPIOne from "./11.api-calls/ReqResAPIOne";
+import StudentMongoAPI from "./11.api-calls/StudentMongoAPI";
+import UserAPI from "./11.api-calls/UserAPI";
+import Routing from "./12.routing/Routing";
 import Hello from "./2.jsx/Hello";
 import Greeting from "./3.props/Greeting";
 import GreetingOne from "./3.props/GreetingOne";
@@ -26,6 +33,8 @@ import NameListTwo from "./7.list-rendering/NameListTwo";
 import AppStyling from "./8.styling/AppStyling";
 import InlineStyling from "./8.styling/InlineStyling";
 import StyleSheet from "./8.styling/StyleSheet";
+import UserForm from "./9.form-data/UserForm";
+import UserFormOne from "./9.form-data/UserFormOne";
 
 function App() {
   // function showMessage(){
@@ -33,7 +42,16 @@ function App() {
   // }
   return (
     <div className="container">
-      <AppStyling />
+      <Routing />
+      {/* <StudentMongoAPI /> */}
+      {/* <ReqResAPIOne /> */}
+      {/* <ReqResAPI /> */}
+      {/* <UserAPI /> */}
+      {/* <PostAPI /> */}
+      {/* <LifeCycleA /> */}
+      {/* <UserFormOne /> */}
+      {/* <UserForm /> */}
+      {/* <AppStyling /> */}
       {/* <InlineStyling /> */}
       {/* <StyleSheet primary={false}/> */}
       {/* <NameListFour /> */}
